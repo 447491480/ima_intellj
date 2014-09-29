@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/libraries/android-compat-v7-lib/android-compat-v7-lib.iml" filepath="$PROJECT_DIR$/libraries/android-compat-v7-lib/android-compat-v7-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/android-photoview-lib/android-photoview-lib.iml" filepath="$PROJECT_DIR$/libraries/android-photoview-lib/android-photoview-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/android-pulltorefresh-lib/android-pulltorefresh-lib.iml" filepath="$PROJECT_DIR$/libraries/android-pulltorefresh-lib/android-pulltorefresh-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/android-sticky-listheaders-lib/android-sticky-listheaders-lib.iml" filepath="$PROJECT_DIR$/libraries/android-sticky-listheaders-lib/android-sticky-listheaders-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/android-umengshare-lib/android-umengshare-lib.iml" filepath="$PROJECT_DIR$/libraries/android-umengshare-lib/android-umengshare-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/android-viewpager-indicator-lib/android-viewpager-indicator-lib.iml" filepath="$PROJECT_DIR$/libraries/android-viewpager-indicator-lib/android-viewpager-indicator-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ima_intellj.iml" filepath="$PROJECT_DIR$/ima_intellj.iml" />
+    </modules>
+  </component>
+</project>
+

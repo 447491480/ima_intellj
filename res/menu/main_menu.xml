@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:osc="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/main_menu_post"
+        android:icon="@drawable/actionbar_post_icon"
+        android:showAsAction="always"
+        android:title="@string/main_menu_post"
+        android:visible="true"
+        osc:showAsAction="always"/>
+    <item
+        android:id="@+id/main_menu_today"
+        android:icon="@drawable/actionbar_today_icon"
+        android:showAsAction="always"
+        android:title="@string/main_menu_today"
+        android:visible="true"
+        osc:showAsAction="always"/>
+    <item
+        android:id="@+id/main_menu_search"
+        android:icon="@drawable/actionbar_search_icon"
+        android:showAsAction="always"
+        android:title="@string/main_menu_search"
+        android:visible="true"
+        osc:showAsAction="always"/>
+    <item
+        android:id="@+id/main_menu_more"
+        android:icon="@drawable/actionbar_more_icon"
+        android:showAsAction="always"
+        android:title="@string/main_menu_more"
+        android:visible="true"
+        osc:showAsAction="always"/>
+
+    <!--
+    <item
+        android:id="@+id/main_menu_login"
+        android:icon="@drawable/ic_menu_login"                
+        android:title="@string/main_menu_login"/>
+     <item
+        android:id="@+id/main_menu_about"
+        android:icon="@drawable/ic_menu_about"
+        android:title="@string/main_menu_about"/>
+    <item
+        android:id="@+id/main_menu_setting"
+        android:icon="@drawable/ic_menu_setting"
+        android:title="@string/main_menu_setting"/>
+    <item
+        android:id="@+id/main_menu_exit"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="@string/main_menu_exit"/>
+    -->
+
+</menu>

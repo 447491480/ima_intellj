@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="android-async-http-loader">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android-async-http-loader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/joda-time-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/umeng-analytics-v5.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/umeng-feedback-v4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/umeng-update-v2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/universal-image-loader-1.9.3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

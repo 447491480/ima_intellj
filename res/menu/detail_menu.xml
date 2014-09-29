@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:osc="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/detail_menu_favorite"
+        android:icon="@drawable/actionbar_favorite_icon"
+        android:showAsAction="always"
+        android:title="@string/detail_menu_favorite"
+        android:visible="true"
+        osc:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/detail_menu_share"
+        android:icon="@drawable/actionbar_share_icon"
+        android:showAsAction="always"
+        android:title="@string/detail_menu_for_share"
+        android:visible="true"
+        osc:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/detail_menu_more"
+        android:icon="@drawable/actionbar_more_icon"
+        android:showAsAction="always"
+        android:title="@string/main_menu_more"
+        android:visible="true"
+        osc:showAsAction="always"/>
+
+</menu>

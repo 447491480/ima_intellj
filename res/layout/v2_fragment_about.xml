@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/about_logo" />
+
+        <TextView
+            android:id="@+id/tv_version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/main_gray"
+            android:textSize="@dimen/text_size_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_8"
+            android:layout_marginRight="@dimen/space_8"
+            android:layout_marginTop="@dimen/space_12"
+            android:background="@color/list_divider_color" />
+
+        <LinearLayout
+            android:id="@+id/ly_author"
+            style="@style/setting_item_container"
+            android:padding="@dimen/space_16" >
+
+            <TextView
+                style="@style/setting_item_text"
+                android:text="@string/author" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/space_4"
+                android:text="@string/author_name"
+                android:textColor="@color/main_gray"
+                android:textSize="@dimen/text_size_14" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_item_goto_right_tip" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_8"
+            android:layout_marginRight="@dimen/space_8"
+            android:background="@color/list_divider_color" />
+
+        <LinearLayout
+            android:id="@+id/ly_osc_git"
+            style="@style/setting_item_container"
+            android:padding="@dimen/space_8" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_8"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oscgit"
+                    android:textColor="@color/main_black"
+                    android:textSize="@dimen/text_size_16" />
+
+                <TextView
+                    android:id="@+id/tv_current_picture_save_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_2"
+                    android:singleLine="true"
+                    android:text="@string/osc_git_path"
+                    android:textColor="@color/main_gray"
+                    android:textSize="@dimen/text_size_12" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_8"
+                android:layout_marginRight="@dimen/space_8"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_item_goto_right_tip" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_8"
+            android:layout_marginRight="@dimen/space_8"
+            android:background="@color/list_divider_color" />
+
+        <LinearLayout
+            android:id="@+id/ly_lisence"
+            style="@style/setting_item_container"
+            android:padding="@dimen/space_16" >
+
+            <TextView
+                style="@style/setting_item_text"
+                android:text="@string/oss_license" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_item_goto_right_tip" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_8"
+            android:layout_marginRight="@dimen/space_8"
+            android:background="@color/list_divider_color" />
+		<LinearLayout
+            android:id="@+id/ly_change_log"
+            style="@style/setting_item_container"
+            android:padding="@dimen/space_16" >
+
+            <TextView
+                style="@style/setting_item_text"
+                android:text="@string/changelog" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_item_goto_right_tip" />
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="@dimen/space_16"
+            android:textColor="@color/main_gray"
+            android:text="@string/app_desc"/>
+    </LinearLayout>
+
+</ScrollView>

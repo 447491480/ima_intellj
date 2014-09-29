@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_background"
+    android:orientation="vertical"
+    android:padding="@dimen/space_8" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <net.oschina.app.v2.ui.AvatarView
+            android:id="@+id/iv_avatar"
+            android:layout_width="@dimen/list_item_avatar_size"
+            android:layout_height="@dimen/list_item_avatar_size"
+            android:layout_marginRight="@dimen/space_8"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tv_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:textColor="@color/main_purple"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_source"
+            android:layout_marginTop="@dimen/space_2"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:textColor="@color/main_gray"
+            android:textSize="@dimen/text_size_12" />
+
+        <TextView
+            android:id="@+id/tv_answer_view_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_source"
+            android:textColor="@color/main_gray"
+            android:textSize="@dimen/text_size_12" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_avatar_size"
+        android:layout_marginTop="@dimen/space_8"
+        android:paddingLeft="@dimen/space_8"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/text_size_16" />
+
+</LinearLayout>

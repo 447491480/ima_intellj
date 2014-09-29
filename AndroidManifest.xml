@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tonlin.osc.happy"
+    android:versionCode="5"
+    android:versionName="1.0.1.0beta" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="net.oschina.app.v2.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/ActionBarBaseTheme" >
+        <activity
+            android:name="net.oschina.app.v2.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActionBarBaseTheme.Transparent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="net.oschina.app.v2.activity.oauth.AuthorizeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActionBarBaseTheme" />
+        <activity
+            android:name="net.oschina.app.v2.activity.user.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.oschina.app.v2.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.oschina.app.v2.activity.news.DetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActionBarBaseTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="net.oschina.app.v2.activity.common.SimpleBackActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.oschina.app.v2.activity.image.ImagePreviewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActionBarBaseTheme.Preview" />
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.umeng.fb.ConversationActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.umeng.fb.ContactActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID -->
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <service android:name="net.oschina.app.v2.service.ServerTaskService" >
+            <intent-filter>
+                <action android:name="net.oschina.app.v2.ACTION_PUBLIC_BLOG_COMMENT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.oschina.app.v2.ACTION_PUBLIC_COMMENT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.oschina.app.v2.ACTION_PUBLIC_POST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.oschina.app.v2.ACTION_PUBLIC_TWEET" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="net.oschina.app.v2.broadcast.AlarmReceiver" >
+        </receiver>
+        <receiver android:name="net.oschina.app.v2.broadcast.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="net.oschina.app.v2.service.NoticeService"
+            android:process=":notice" />
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5417a42afd98c5660405e8cb" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="channel_beta" >
+        </meta-data>
+    </application>
+
+</manifest>

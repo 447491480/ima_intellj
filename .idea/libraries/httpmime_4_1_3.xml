@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="httpmime-4.1.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/httpmime-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_QQZone_1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_QQZone_2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_QQZone_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_Sina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_tencentWB_1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_tencentWB_2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_tencentWB_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_WeiXin_1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/SocialSDK_WeiXin_2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/android-umengshare-lib/libs/umeng_social_sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

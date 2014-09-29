@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/list_divider_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" 
+        android:background="@color/list_item_background_normal">
+
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/list_item_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/space_8"
+            android:text="@string/category"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/text_size_14" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="20dp"
+            android:background="@color/list_divider_color" />
+
+        <TextView
+            android:id="@+id/tv_blog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/list_item_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/space_8"
+            android:text="@string/blog"
+            android:textColor="@color/main_gray"
+            android:textSize="@dimen/text_size_14" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="20dp"
+            android:background="@color/list_divider_color" />
+
+        <TextView
+            android:id="@+id/tv_information"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/list_item_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/space_8"
+            android:text="@string/information"
+            android:textColor="@color/main_gray"
+            android:textSize="@dimen/text_size_14" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/list_divider_color" />
+
+</LinearLayout>

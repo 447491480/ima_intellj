@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/setting_item_container"
+            android:layout_marginTop="@dimen/space_20"
+            android:padding="@dimen/space_12" >
+
+            <TextView
+                style="@style/setting_item_text"
+                android:layout_marginLeft="@dimen/space_8"
+                android:text="@string/notification_sound" />
+
+            <net.oschina.app.v2.ui.tooglebutton.ToggleButton
+                xmlns:toggle="http://schemas.android.com/apk/res/com.tonlin.osc.happy"
+                android:id="@+id/tb_notification_sound"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                toggle:borderWidth="0.1dp"
+                toggle:onColor="@color/main_green" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_8"
+            android:layout_marginRight="@dimen/space_8"
+            android:background="@color/list_divider_color" />
+
+        <LinearLayout
+            style="@style/setting_item_container"
+            android:padding="@dimen/space_12" >
+
+            <TextView
+                style="@style/setting_item_text"
+                android:layout_marginLeft="@dimen/space_8"
+                android:text="@string/notification_exit_and_quit" />
+
+            <net.oschina.app.v2.ui.tooglebutton.ToggleButton
+                xmlns:toggle="http://schemas.android.com/apk/res/com.tonlin.osc.happy"
+                android:id="@+id/tb_notification_disable_when_exit"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                toggle:borderWidth="0.1dp"
+                toggle:onColor="@color/main_green" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

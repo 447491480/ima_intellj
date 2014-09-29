@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <net.oschina.app.v2.emoji.EmojiEditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/list_item_background_normal"
+        android:gravity="top|left"
+        android:hint="@string/question_public_content"
+        android:padding="@dimen/space_12"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/text_size_16" />
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_8"
+        android:background="@color/list_item_background_normal"
+        android:gravity="bottom" >
+
+        <RelativeLayout
+            android:id="@+id/rl_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/light_gray"
+                android:clickable="true"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/iv_clear_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/ib_clear_image_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/rl_img"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/compose_clear_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/main_gray"
+            android:textSize="@dimen/text_size_14" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/list_divider_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_item_background_normal"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/ib_picture"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/space_8"
+            android:src="@drawable/compose_toolbar_picture_selector" />
+
+        <ImageButton
+            android:id="@+id/ib_mention"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/space_8"
+            android:src="@drawable/compose_toolbar_mention_selector" />
+
+        <ImageButton
+            android:id="@+id/ib_trend_software"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/space_8"
+            android:src="@drawable/compose_toolbar_trend_selector" />
+
+        <ImageButton
+            android:id="@+id/ib_emoji_keyboard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:padding="@dimen/space_8"
+            android:src="@drawable/compose_toolbar_emoji_selector" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/list_divider_color" />
+
+    <LinearLayout
+        android:id="@+id/ly_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_item_background_normal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal" >
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="4dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

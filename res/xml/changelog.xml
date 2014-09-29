@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release
+            version="1.0.0.1-2014.09.19"
+            versioncode="3">
+        <change>修复:动弹@某人无法点击BUG</change>
+        <change>修复:点击列表中的没有更多导致奔溃BUG</change>
+        <change>修复:动弹明细不显示图片BUG</change>
+        <change>新增:关于界面新增更新日志项</change>
+        <change>新增:发布是通知是否开启声音设置</change>
+        <change>修改:调整了明细页中收藏菜单的位置</change>
+    </release>
+    <release
+            version="1.0.0.0-2014.09.18"
+            versioncode="2">
+        <change>初版</change>
+    </release>
+</changelog>

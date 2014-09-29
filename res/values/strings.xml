@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">哎嘛</string>
+    
+    <string name="main_menu_login">登录</string>
+    <string name="main_menu_logout">注销</string>
+    <string name="main_menu_myinfo">我的资料</string>
+    <string name="main_menu_software">开源软件</string>
+    <string name="main_menu_search">搜索</string>
+    <string name="main_menu_post">发表</string>
+    <string name="main_menu_today">每日一句</string>
+    <string name="main_menu_more">更多</string>
+    <string name="main_menu_send">提交</string>
+    <string name="main_menu_sweep">扫一扫</string>
+    <string name="main_menu_picshow">显示图片</string>
+    <string name="main_menu_picnoshow">隐藏图片</string>
+    <string name="main_menu_cache">清除缓存</string>
+    <string name="main_menu_email">意见反馈</string>
+    <string name="main_menu_about">关于我们</string>
+    <string name="main_menu_setting">设置</string>
+    <string name="main_menu_exit">退出应用</string>
+  
+    <string name="detail_menu_unfavorite">取消收藏</string>
+    <string name="detail_menu_favorite">收藏</string>
+    <string name="detail_menu_for_share">分享</string>
+    <string name="detail_menu_for_report">举报</string>
+    
+    <string name="image_menu_download">保存</string>
+    
+    <string name="frame_title_news_lastest">最新资讯</string>
+    <string name="frame_title_news_blog">最新博客</string>
+    <string name="frame_title_news_recommend">推荐阅读</string>
+    <string name="frame_title_question_ask">问答</string>
+    <string name="frame_title_question_share">分享</string>
+    <string name="frame_title_question_other">综合</string>
+    <string name="frame_title_question_job">职业</string>
+    <string name="frame_title_question_site">站务</string>
+    <string name="frame_title_tweet_lastest">最新动弹</string>
+    <string name="frame_title_tweet_hot">热门动弹</string>
+    <string name="frame_title_tweet_my">我的动弹</string>
+    <string name="frame_title_tweet_send">动弹一下</string>
+    <string name="frame_title_active_lastest">最新动态</string>
+    <string name="frame_title_active_atme">\@我</string>
+    <string name="frame_title_active_comment">评论</string>
+    <string name="frame_title_active_myself">我自己</string>
+    <string name="frame_title_active_message">留言</string>
+    <string name="frame_title_friend_following">关注</string>
+    <string name="frame_title_friend_follower">粉丝</string>
+    <string name="frame_title_favorite_software">软件</string>
+    <string name="frame_title_favorite_post">话题</string>
+    <string name="frame_title_favorite_code">代码</string>
+    <string name="frame_title_favorite_blog">博客</string>
+    <string name="frame_title_favorite_news">资讯</string>
+    
+    <string name="frame_title_software_catalog">分类</string>
+    <string name="frame_title_software_recommend">推荐</string>
+    <string name="frame_title_software_lastest">最新</string>    
+    <string name="frame_title_software_hot">热门</string>
+    <string name="frame_title_software_china">国产</string>
+    
+    
+    <!-- V2 -->
+    <string name="tab_name_article">资讯</string>
+    <string name="tab_name_question">问答</string>
+    <string name="tab_name_tweet">动弹</string>
+    <string name="tab_name_me">我</string>
+    
+    <!-- Error View -->
+    <string name="error_view_click_to_refresh">点击屏幕,重新加载</string>
+    <string name="error_view_no_data">暂无内容</string>
+    <string name="error_view_loading">加载中…</string>
+    <string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string>
+    <string name="error_view_network_error_click_to_refresh">没有可用的网络</string>
+    <string name="tip_network_error">没有可用的网络</string>
+    
+    <string name="loading">加载中…</string>
+    <string name="loading_no_more">没有更多数据.</string>
+    
+    <string name="publish_comment">写点什么吧</string>
+    <!-- software detail -->
+    <string name="software_license">开源协议 :</string>
+    <string name="software_language">开发语言 :</string>
+    <string name="software_os">操作系统 :</string>
+    <string name="software_recordtime">收录时间 :</string>
+    <string name="software_index">软件首页</string>
+    <string name="software_download">软件下载</string>
+    <string name="software_document">软件文档</string>
+    
+    <string name="from_mobile">来自:手机</string>
+    <string name="from_android">来自:Android</string>
+    <string name="from_iphone">来自:Iphone</string>
+    <string name="from_windows_phone">来自:Windows Phone</string>
+    <string name="from_wechat">来自:微信</string>
+    
+    <string name="unlogin">未登录</string>
+    <string name="unlogin_tip">您还未登录\r\n点击屏幕登录</string>
+    <string name="hint_username">输入账号/邮箱</string>
+    <string name="hint_password">密码</string>
+    <string name="login">登录</string>
+    <string name="tip_please_input_username">请输入用户名</string>
+	<string name="tip_please_input_password">请输入密码</string>
+    <string name="progress_login">正在登录…</string>
+    <string name="tip_login_error_for_network">对不起,无法登录.</string>
+    <string name="tip_no_internet">当前没有可用的网络链接</string>
+    <string name="actionbar_title_news">资讯</string>
+    <string name="actionbar_title_blog">博客</string>
+    <string name="actionbar_title_software">软件</string>
+    <string name="actionbar_title_question">帖子</string>
+    <string name="actionbar_title_tweet">动弹</string>
+    <string name="actionbar_title_detail">详情</string>
+    <string name="tip_logout_success">注销成功.</string>
+    
+    <string name="picture_save_path">图片缓存路径</string>
+    <string name="current_picture_save_path">目前路径：%s</string>
+    <string name="load_picture">加载图片</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="check_udpdate">检查更新</string>
+    <string name="oss_license">开源协议</string>
+    <string name="feedback">意见反馈</string>
+    <string name="grade">去评分</string>
+    <string name="about_us">关于</string>
+    <string name="actionbar_title_settings">设置</string>
+    <string name="actionbar_title_about">关于</string>
+    <string name="author">开发者</string>
+    <string name="author_name">Tonlin</string>
+    <string name="author_center">http://my.oschina.net/u/142883</string>
+    <string name="oscgit">OSC Git</string>
+    <string name="osc_git_path">http://git.oschina.net/tonlin/android-app</string>
+    
+    
+    <string name="actionbar_title_profile">个人中心</string>
+    <string name="favorite">收藏</string>
+    <string name="following">关注</string>
+    <string name="follower">粉丝</string>
+    <string name="join_time">加入时间:</string>
+    <string name="location">所在地区:</string>
+    <string name="development_platform">开发平台:</string>
+    <string name="academic_focus">专长领域:</string>
+    
+    <string name="actionbar_title_message_public">留言</string>
+    <string name="actionbar_title_message_detail">对话</string>
+    <string name="actionbar_title_question_public">发帖</string>
+    <string name="actionbar_title_tweet_public">动弹一下</string>
+    <string name="actionbar_title_reply_comment">回复评论</string>
+    <string name="choose_picture">选择图片</string>
+    <string name="clear_message">清除文字吗?</string>
+    <string name="ok">确定</string>
+    
+    <string name="question_title_hint">标题</string>
+    <string name="question_public_content">内容</string>
+    <string name="question_public_category">分类: %s</string>
+    <string name="question_public_let_me_know">有人回答时邮件通知我</string>
+    <string name="tip_title_empty">标题不能为空哦</string>
+    <string name="tip_content_empty">内容不能为空哦</string>
+    
+    <string name="actionbar_title_user_center">用户中心</string>
+    <string name="following_count">关注:%s</string>
+    <string name="follower_count">粉丝:%s</string>
+    <string name="private_message">私信</string>
+    <string name="follow_user">关注</string>
+    <string name="unfollow_user">取消关注</string>
+    <string name="follow_each_other">取消互粉</string>
+    <string name="latest_login_time">最近登录:%s</string>
+    <string name="category">分类</string>
+    <string name="blog">博客</string>
+    <string name="blog_count">博客(%s)</string>
+    <string name="information">资料</string>
+    <string name="edit_avatar">编辑头像</string>
+    <string name="logout">退出当前帐号</string>
+    <string name="message_logout">退出后将无法看到个人动态,确定退出吗?</string>
+    
+    <string name="actionbar_title_friends">我的好友</string>
+    <string name="actionbar_title_favorites">我的收藏</string>
+    <string name="actionbar_title_ossoftware">开源软件</string>
+    
+    <string name="actionbar_title_comment">评论</string>
+    <string name="actionbar_title_question_tag">%s相关</string>
+    <string name="comment_count">评论:%s</string>
+    <string name="answer_count">回复:%s</string>
+    <string name="post_answer">回复</string>
+    <string name="comment_reply_count">共有%s条评论</string>
+    <string name="comment_refer_author">引用来自%s的评论</string>
+    <string name="tip_comment_content_empty">"请输入评论内容"</string>
+    
+	<string name="message_delete_tweet">确定要删除这条动弹吗?</string>
+	<string name="tip_del_tweet_faile">对不起,删除该动弹失败</string>
+	<string name="tip_del_tweet_success">删除动弹成功</string>
+	
+	<string name="operation">操作</string>
+	<string name="reply">回复</string>
+	<string name="delete">删除</string>
+	<string name="copy">复制</string>
+	<string name="deleting">正在删除…</string>
+	<string name="delete_success">删除成功</string>
+	<string name="delete_faile">删除失败</string>
+	
+	<string name="reply_comment_to">回复“%s”的评论</string>
+	<string name="comment_success">评论成功</string>
+	<string name="comment_faile">评论失败</string>
+    
+    <string name="add_favorite_success">收藏成功</string>
+	<string name="add_favorite_faile">收藏失败</string>
+	<string name="del_favorite_success">已取消收藏</string>
+	<string name="del_favorite_faile">取消收藏失败</string>
+	
+	<string name="share_to">分享到</string>
+	
+	<string name="forward_to_my_center">转发到个人空间</string>
+	<string name="progress_submit">正在提交…</string>
+	
+	
+	<!-- notification messages -->
+	<string name="comment_blog">发布评论</string>
+	<string name="comment_publishing">正在发布你的评论…</string>
+	<string name="comment_publish_success">评论发布成功</string>
+	<string name="comment_publish_faile">发布评论失败</string>
+	
+	<string name="tweet_public">发布动弹</string>
+	<string name="tweet_publishing">正在发布你的动弹…</string>
+	<string name="tweet_publish_success">动弹发布成功</string>
+	<string name="tweet_publish_faile">发布动弹失败</string>
+	
+	<string name="post_public">发布帖子</string>
+	<string name="post_publishing">正在发布你的帖子…</string>
+	<string name="post_publish_success">帖子发布成功</string>
+	<string name="post_publish_faile">发布帖子失败</string>
+	
+	<string name="actionbar_title_daily_english">每日一句</string>
+	<string name="actionbar_title_notification_settings">消息和提醒</string>
+	<string name="actionbar_title_message_forward">转发留言</string>
+	<string name="send_message_to">发送留言给:</string>
+	<string name="hint_user_name">对方昵称</string>
+	<string name="hint_message">留言内容</string>
+	<string name="tip_message_public_success">发送成功</string>
+	<string name="tip_message_public_faile">发送失败</string>
+	<string name="send_to">发给</string>
+	<string name="message_count">%s条留言</string>
+	<string name="tip_foward_username_empty">请输入对方昵称</string>
+	<string name="tip_message_forward_success">转发成功</string>
+	<string name="tip_message_forward_faile">转发失败</string>
+	
+	<string name="actionbar_title_search">搜索</string>
+	<string name="tab_software">软件</string>
+	<string name="tab_qa">问答</string>
+	<string name="tab_blog">博客</string>
+	<string name="tab_news">新闻</string>
+	<string name="tab_code">代码</string>
+	<string name="tip_search_content_empty">请输入搜索内容</string>
+	<string name="hint_search">搜索内容</string>
+	
+	<string name="actionbar_title_lisence">开源协议</string>
+	<string name="report">举报</string>
+	<string name="report_link">举报链接</string>
+	<string name="report_reson">举报原因</string>
+	<string name="hint_report_desc">详细描述(250字内)</string>
+	<string name="tip_report_other_reason_too_long">描述内容长度超过限制</string>
+	<string name="tip_report_success">举报成功</string>
+	<string name="tip_report_faile">举报失败</string>
+	
+	<string name="confirm_delete_message">确定要删除和\"%s\"的所有留言吗?</string>
+	<string name="tip_delete_success">删除成功</string>
+	<string name="tip_delete_faile">无法删除</string>
+	<string name="tip_content_too_long">内容长度超过限制</string>
+	
+	<string name="tip_save_image_suc">图片已保存在:%s</string>
+	<string name="tip_save_image_faile">无法保存图片</string>
+	
+	<string name="cancle">取消</string>
+	<string name="found_new_version">发现新版本:%s</string>
+	<string name="tip_checking_update">正在检查更新…</string>
+	<string name="tip_has_not_update">当前已是最新版本</string>
+	
+	<string name="clearwords">确定要清除文字吗?</string>
+	
+	<string name="app_desc">
+	    哎嘛是一款采用GPL授权协议的OSC(http://www.oschina.net)第三方客户端，Fork于oschina/android-app。
+	    你可以免费获取到本项目的所有源代码，如果你想使用它，请你务必采用GPL授权协议。	  
+	</string>
+	
+	<string name="platform_qq">QQ</string>
+	<string name="platform_qzone">QQ空间</string>
+	<string name="platform_tencent_weibo">腾讯微博</string>
+	<string name="platform_sina">微博</string>
+	<string name="platform_weichat">微信</string>
+	<string name="platform_weichat_circle">朋友圈</string>
+	<string name="share_title">哎嘛分享</string>
+	<string name="tip_start_share">开始分享</string>
+	<string name="tip_share_done">分享完成</string>
+	
+	<string name="changelog">更新日志</string>
+	<string name="notification_settings">提醒和通知</string>
+	<string name="notification_sound">通知声音</string>
+	<string name="notification_exit_and_quit">退出应用后不提醒</string>
+	
+	<string name="you_have_news_messages">你有%s条最新消息</string>
+	<string name="atme_count">\@我(%s) </string>
+	<string name="msg_count">留言(%s) </string>
+	<string name="review_count">评论(%s) </string>
+	<string name="fans_count">新粉丝(%s) </string>
+	
+	<string name="tip_click_back_again_to_exist">再按一次退出哎嘛</string>
+	<string name="draft_tweet_message">要保存为草稿吗?</string>
+	
+</resources>

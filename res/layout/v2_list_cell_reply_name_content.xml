@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/space_4" >
+
+    <TextView
+        android:id="@+id/tv_reply_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_2"
+        android:textColor="@color/main_purple"
+        android:textSize="@dimen/text_size_12" />
+
+    <net.oschina.app.v2.ui.text.TweetTextView
+        android:id="@+id/tv_reply_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_black"
+        android:textSize="@dimen/text_size_12" />
+
+</LinearLayout>

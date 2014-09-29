@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_item_background_normal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_8" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/comment_edittext_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_8"
+                android:background="@null"
+                android:src="@drawable/search_edit_top_img_2" />
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_8"
+                android:layout_marginRight="@dimen/space_8"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/hint_search"
+                android:minHeight="35dp"
+                android:singleLine="true"
+                android:textColor="@color/main_black"
+                android:textColorHint="@color/main_gray"
+                android:textSize="@dimen/text_size_16" />
+
+            <ImageButton
+                android:id="@+id/ib_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingLeft="@dimen/space_8"
+                android:paddingRight="@dimen/space_8"
+                android:src="@drawable/delete_text_selector" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ib_search"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/space_8"
+            android:background="@drawable/btn_search_selector"
+            android:paddingLeft="@dimen/space_8"
+            android:paddingRight="@dimen/space_8"
+            android:src="@drawable/btn_search_icon" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <net.oschina.app.v2.ui.pagertab.PagerSlidingTabStrip
+                android:id="@+id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/pager_sliding_tab_strip_height"
+                android:background="@color/white" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/main_tab_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tabs" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

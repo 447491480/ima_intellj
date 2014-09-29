@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_8" >
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="@dimen/list_item_avatar_size"
+            android:layout_height="@dimen/list_item_avatar_size"
+            android:layout_marginRight="@dimen/space_4"
+            android:background="@drawable/ic_default_avatar" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/messages_left_bubble"
+                android:orientation="vertical"
+                android:padding="@dimen/space_8" >
+
+                <net.oschina.app.v2.ui.text.TweetTextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_8"
+                    android:textColor="@color/main_black"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_item_background_normal"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/space_8"
+        android:paddingLeft="@dimen/space_8"
+        android:paddingTop="@dimen/space_8"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/cb_let_me_know"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@drawable/btn_checkbox_selector"
+            android:text="@string/forward_to_my_center"
+            android:textColor="@color/main_gray"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+</LinearLayout>

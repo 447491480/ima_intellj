@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/space_8" >
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/list_item_avatar_size"
+        android:layout_height="@dimen/list_item_avatar_size"
+        android:background="@drawable/ic_default_avatar"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_4"
+        android:layout_marginRight="@dimen/space_8"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <net.oschina.app.v2.ui.text.TweetTextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_from_bg_selector"
+            android:gravity="center_vertical"
+            android:textColor="@color/main_black"
+            android:textSize="@dimen/text_size_15" />
+    </LinearLayout>
+
+</LinearLayout>
